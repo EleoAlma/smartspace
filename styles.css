@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+
+/* 
+
+font-family: 'DM Sans',
+sans-serif;
+
+
+font-family: 'Manrope',
+sans-serif;
+
+
+ */
+
+
+
+:root {
+   --main-text-color: #31353B;
+}
+
+/* __________________________Reset Styles_________________________ */
+
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+
+html,
+body {
+   height: 100%;
+   line-height: 1;
+   color: var(--main-text-color);
+   font-family: 'Manrope', sans-serif;
+   font-weight: 300;
+}
+
+/* ____________________________________________________________________ */
+
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+
+[class*="_container"] {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+/* Some Default Styles */
+
+
+
+/* HEADER____________________________________________________________________ */
+
+
